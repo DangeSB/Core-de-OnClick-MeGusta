@@ -1,0 +1,68 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.topbar {
+  background: #333946;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  width: 850px;
+  margin: 0 auto;
+}
+
+.profile {
+  border: 2px solid black;
+  width: 160px;
+  padding: 15px;
+  text-align: center;
+  height: fit-content;
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile button {
+  background: #2b90b8;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.feed {
+  flex: 1;
+}
+
+article {
+  background: #eee;
+  border: 2px solid black;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.likes {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.btn-like {
+  background: #ffd166;
+  border: 1px solid black;
+  padding: 2px 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
