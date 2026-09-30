@@ -1,8 +1,8 @@
-document.querySelectorAll("article").forEach(post => {
-  const btn = post.querySelector(".btn-like");
-  const count = post.querySelector(".count");
+let botones = document.querySelectorAll(".btn-like");
 
-  btn.onclick = () => {
-    count.innerText = Number(count.innerText) + 1;
-  };
-});
+for (let i = 0; i < botones.length; i++) {
+  botones[i].addEventListener("click", function () {
+    let contador = botones[i].parentElement.querySelector(".count");
+    contador.innerText = parseInt(contador.innerText) + 1;
+  });
+}
